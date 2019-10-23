@@ -1,0 +1,29 @@
+.mat-card { 
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+}
+.alert-danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    float: left;
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0px;
+}
+
+.c-red{
+    color: red;
+}
+ul{
+    padding-left: 0px;
+}
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 15px;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}

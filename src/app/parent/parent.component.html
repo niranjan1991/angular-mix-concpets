@@ -1,0 +1,7 @@
+<p>
+  parent works! {{ title }} ----------> <span style="color: green">{{ ChildData }}</span>
+</p>
+
+<div style="padding-left: 20px">
+<app-child [userData]="title" (childToParent)="childToParent($event)"></app-child>
+</div>
